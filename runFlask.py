@@ -15,7 +15,7 @@ def index_1():
 
 
 @app.route("/show_student_information")
-def show():
+def show_1():
     # read file
     data = []
     with open("./data/student_information.txt",encoding='utf-8') as fin:
